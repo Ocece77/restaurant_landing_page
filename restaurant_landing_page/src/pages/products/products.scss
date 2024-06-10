@@ -1,0 +1,11 @@
+.title{
+  animation: none ;
+}
+
+.product-card {
+  &:hover{
+    transform: scale(1.02);
+    box-shadow:10px 10px var(  --color-lighterblue);
+  }
+  transition: .4s ease-in-out;
+}

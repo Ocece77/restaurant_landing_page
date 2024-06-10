@@ -1,0 +1,76 @@
+
+@keyframes opening {
+  0%{
+    transform:  translateY(20em);
+
+  }
+}
+
+
+@keyframes slide {
+  0%{
+    transform:  translateY(-10em);
+
+  }
+}
+
+
+h1{
+  text-transform: uppercase;
+  text-align: center !important;
+  animation: slide 2s;
+}
+
+.opening{
+  img{
+    object-fit: contain;
+    animation: opening 2s;
+  }
+}
+
+
+@media only screen and (max-width : 600px) {
+  
+h1{
+  font-size: 4em !important;
+}
+}
+
+@media only screen and (min-width : 600px) {
+  
+  h1{
+    font-size: 5rem !important;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  
+  h1{
+    font-size: 6rem !important;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  
+  @keyframes slide {
+    0%{
+      transform:  translateX(-23em);
+  
+    }
+  }
+  
+@keyframes opening {
+  0%{
+    transform: scale(4) translateX(-20em);
+
+  }
+  50%{
+    transform: translateX(-40em)
+
+  }
+}
+  h1{
+    font-size: 9em !important;
+    margin-top: 0 !important;
+  }
+}
