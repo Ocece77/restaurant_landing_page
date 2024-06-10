@@ -13,6 +13,7 @@ return(
           <Col>
           <iframe width="100%" height="200px" scrolling="no"  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Disneyland%20Paris,%20Bd%20de%20Parc,%2077700%20Coupvray+(Disneyland%20Paris)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe>
           <address className="fw-bold"><em style={{color : 'var(--color-lightblue) '}}>Disneyland Paris, Bd de Parc, 77700 Coupvray</em></address>
+          <p className="fw-bold">Opening : everyday - 9 am to 7 pm</p>
           </Col>
       </Col>
 
@@ -38,7 +39,7 @@ return(
 
               <Button  type="submit">
                 Submit
-              </Button>
+               </Button>
         </Form>
           
           </Col>
