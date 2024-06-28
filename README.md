@@ -2,6 +2,8 @@
 
 Welcome to the repository for the "Cotton Candy Restaurant Landing Page" project. This project was developed as part of [The Odin Project](https://www.theodinproject.com/). It is a landing page for a sweets restaurant called "Cotton Candy," built with React and TypeScript.
 
+See the project live here ----> 🔗 https://gitname.github.io/restaurant_landing_page/
+
 ## 🎯 Project Objective
 
 The goal of this project is to create an attractive and functional landing page for the "Cotton Candy" restaurant, utilizing skills in ReactJS. The site aims to showcase the restaurant's offerings, attract new customers, and provide essential information such as opening hours and contact details.
